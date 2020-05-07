@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: roboto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 100px 500px auto;
+    height: 100vh;
+}
+
+.grid-item {
+    border: 0.8px solid rgb(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* side nav Styling  */
+.sideNav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    background-color: #34AA45;
+}
+
+.sideNav ul li img {
+    width: 35px;
+    margin: 20px auto;
+}
+
+.mainLogo {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.userPhoto img {
+    margin-bottom: 0px;
+    width: 90%;
+
+}
+
+.userPhoto {
+    position: relative;
+    top: 300px;
+}
+
+.search input[type=text] {
+    padding: 20px;
+    width: 90%;
+    border: none;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px auto;
+    font-size: 17px;
+    background: url(../images/icons8-search-96.png) no-repeat right;
+    background-size: 30px;
+}
+
+.dashboard div:nth-child(2) {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chatbox {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.chatbox h1 {
+    text-align: left;
+    color: #34AA45;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+.chatNav li {
+    float: left;
+    text-align: center;
+    padding: 15px 12px;
+    width: 27%;
+    font-weight: bold;
+    opacity: 0.4;
+}
+
+/* .chatNav li:hover {
+    color: #3FA747;
+    border-bottom: 3px solid #3FA747;
+    transition: 0.3s color opacity;
+    opacity: 1;
+} */
+
+.chatMes {
+    color: white;
+    clear: both;
+    padding: 20px;
+    background-color: #3FA747;
+    margin-top: 50px;
+    box-shadow: 1px 1px 2px green;
+    border-radius: 10px;
+    line-height: 1.5em;
+    overflow: auto;
+}
+
+.chatMes div:nth-child(1) img {
+    float: left;
+    width: 55px;
+}
+
+.chatMes div:nth-child(1) h4 {
+    float: left;
+    margin: 18px 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.chatMes div:nth-child(2) {
+    clear: both;
+    padding: 10px 0px;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.dashboard div:nth-child(2)::-webkit-scrollbar {
+    width: 0px;
+    opacity: 0.2px;
+}
+
+.chatMes p:nth-child(1) {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+
+}
+
+.peopleList {
+    clear: both;
+}
+
+.peopleList ul {
+    width: 70%;
+    float: left;
+    margin: 5px 40px;
+
+}
+
+.peopleList ul li {
+    float: left;
+}
+
+.peopleList ul li img {
+    width: 50px;
+}
+
+.peopleList p {
+    font-weight: bold;
+    width: 20%;
+    float: right;
+    margin: -45px 11px;
+}
+}
+
+/* 3rd colum - Indox Team Group Chat */
+.dashboard div:nth-child(3) .designTeam {
+    width: 100%;
+    margin: 10px auto;
+    /* height: 100px; */
+    border-bottom: 10px solid rgb(0, 0, 0, 0.2);
+
+}
+
+.designTeam .mainHeading {
+    float: left;
+    color: #46A251;
+    margin: 20px;
+
+}
+
+.designTeam .mainHeading img {
+    float: left;
+    width: 50px;
+    margin-left: 0px;
+}
+
+.designTeam .mainHeading h4 {
+    float: right;
+    font-weight: bold;
+    margin: 11px 16px;
+    font-size: 24px;
+
+}
+
+.designTeam .people ul {
+    float: right;
+    margin: 20px;
+
+}
+
+.designTeam .people ul li {
+    float: left;
+    margin: 0px 10px;
+}
+
+.designTeam .people ul li img {
+    width: 50px;
+}
+
+hr {
+
+    width: 80%;
+    margin: 10px 60px;
+    opacity: 0.5;
+}
+
+.mesBox {
+    background-color: transparent;
+    color: black;
+    box-shadow: 0px 9px 32px -16px rgba(0, 0, 0, 0.75);
+}
+
+.inputBox {
+    clear: both;
+    position: fixed;
+    top: 860px;
+    width: 100%;
+}
+
+.inputBox input[type=text] {
+    width: 100%;
+    padding: 60px;
+    font-size: 24px;
+}
+
+.dashboard div:nth-child(3) {
+    overflow: hidden;
+}
